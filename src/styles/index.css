@@ -1,12 +1,67 @@
+body{
+    background: rgb(75,66,255);
+    background: linear-gradient(90deg, rgba(75,66,255,1) 0%, rgba(163,29,253,1) 50%, rgba(69,221,252,1) 100%);
+}
 
-/* 
+.main{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-Content: center;
+    margin-top: 150px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.toodo{
+    width: 600px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(44, 44, 44);
+    border-radius: 20px;
+    padding-bottom: 20px;
+    -webkit-box-shadow: 0px 0px 119px -6px rgba(209,61,209,1);
+    -moz-box-shadow: 0px 0px 119px -6px rgba(209,61,209,1);
+    box-shadow: 0px 0px 119px -6px rgba(209,61,209,1);
+}
+.ptitle{
+    font-size: 100px;
+    color: aliceblue;
+}
 
-*/
+input{
+    border-radius: 5px;
+    border-color: rgba(212, 212, 212, 0.622);
+    background: rgb(93,219,233);
+    background: radial-gradient(circle, rgba(93,219,233,1) 0%, rgba(148,187,233,1) 100%);
+    color: aliceblue;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    width: 500px;
+    height: 35px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+h4{
+    color:aliceblue;
+}
+.divh4{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+.button{
+    border-radius: 20%;
+    background: rgb(93,219,233);
+    background: radial-gradient(circle, rgba(93,219,233,1) 0%, rgba(148,187,233,1) 100%);
+    color: aliceblue;
+    border-color: aliceblue;
+}
