@@ -32,8 +32,6 @@ const Home = () => {
 		}
 	} 
 
-	
-
     const buttonblock = () => {
 		setButton("appear")
 	}
@@ -43,8 +41,8 @@ const Home = () => {
 	}
 
     const erase = () => {
-		let filteredTasks = tasks.filter((task,index) => index !== index);
-		setTasks(filteredTasks);
+		let filteredTask = tasks.filter((task,index) => index !== index);
+		setTasks(filteredTask);
 	}
 
 	return (

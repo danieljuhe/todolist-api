@@ -13,7 +13,7 @@ const Todo = (props) => {
 	}
 
     const erase = (event) => {
-		let filteredTodos = props.todos.filter((todo,index) => index !== props.index);
+		let filteredTodos = props.todos.filter((tasks,index) => index !== props.index);
 		props.setTodos(filteredTodos);
 	}
 
