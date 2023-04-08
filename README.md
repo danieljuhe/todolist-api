@@ -1,41 +1,34 @@
-# Hello World with React boilerplate
-<p>
-  <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
-  </a>
+# WebApp React JS, Tailwind & Vite
+
+
+<p align="center">
+<img src="https://blog.logrocket.com/wp-content/uploads/2022/06/setting-up-dev-environment-react-vite-tailwind.png" />
 </p>
 
-This template is similar to create-react-app but it's meant for 4Geeks Academy students.
 
-##### Download the boilerplate using git
+### Requirements:
+```
+1. Instala las dependencias del proyecto `$ pipenv install`.
 
-```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
-```
+2. Entra dentro del **virtual environment** `$ pipenv shell`
 
-##### and install the npm package:
-```
-$ npm install
+3. Inicio al servidor flask `$ pipenv run python src/api/app.py`
+
+4. Launch the React APP: `$ npm run dev`
 ```
 
-## Start coding!
+### Styles
+Styles with Tailwind CSS
 
-For Windows, Mac, Linux or Gitpod, start the webpack server with live reload:
-- `$ npm run start`
+### Components
+Add more files into your `./src/components` or styles folder as you need them and import them into your current files as needed.
 
-You can update the `styles/index.css` or `js/index.js` depending on your needs.
-Add more files into your, `./src/js/components` or styles folder as you need them.
+### http
+This is the event type for fetch events dispatched on the service worker global scope.
 
-## Publish your website!
 
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
+<p align="center">
+<img src="https://i.ibb.co/KNT5mSc/Captura-de-pantalla-20221209-151414.png" />
+</p>
 
-It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
-
-## Other features
-
-- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
-- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
-- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
-- One-command publish of the code to github pages with `npm run deploy:github`.
-- Babel 7 (really fast).
+```     
